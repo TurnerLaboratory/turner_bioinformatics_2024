@@ -13,6 +13,7 @@ Resources and links:
 install.packages('natmanager')
 natmanager::install('natverse')
 natmanager::install(pkgs = 'coconatfly')
+natmanager::install(pkgs = 'coconatfly')
 ```
 ### then download flywire data
 ```
