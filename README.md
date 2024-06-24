@@ -11,6 +11,7 @@ Resources and links:
 ### first install the natverse manager and coconatfly
 ```
 install.packages('natmanager')
+natmanager::install('natverse')
 natmanager::install(pkgs = 'coconatfly')
 ```
 ### then download flywire data
