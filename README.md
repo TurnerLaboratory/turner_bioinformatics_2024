@@ -19,6 +19,17 @@ natmanager::install(pkgs = 'coconatfly')
 fafbseg::download_flywire_release_data()
 ```
 
+### Troubleshooting issues:
+
+If cfpartners() gives you an error like:
+```
+Error in `compute.arrow_dplyr_query()`:
+! NotImplemented: Support for codec 'zstd' not built
+```
+
+Try installing the arrow package like this:
+`install.packages('arrow', repos = 'https://apache.r-universe.dev')`
+
 
 ### Check that the packages and datasets are set up
 ```
